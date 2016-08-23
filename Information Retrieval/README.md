@@ -1,1 +1,2 @@
-# Information RetrievalThis folder contains the assignments of the Information Retrieval course taken during Spring 2016
+# Information Retrieval
+This folder contains the assignments of the Information Retrieval course taken during Spring 2016
