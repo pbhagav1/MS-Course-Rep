@@ -22,5 +22,6 @@ This Repository contains the artefacts created during my MS Course @ IIT, Chicag
 [Software Project Management] (https://github.com/pbhagav1/MS-Course-Rep/tree/master/Software%20Project%20Management) 
 
 ## Fall 2016
-Data Mining
-Mobile Application Development
+[Data Mining] (https://github.com/pbhagav1/MS-Course-Rep/tree/master/Data%20Mining)
+
+[Mobile Application Development] (https://github.com/pbhagav1/MS-Course-Rep/tree/master/Mobile%20Application%20Development)
