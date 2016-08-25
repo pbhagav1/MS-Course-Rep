@@ -1,0 +1,52 @@
+[ec2-user@ip-172-31-62-210 Linpack]$ ./runme_xeon64
+This is a SAMPLE run script for SMP LINPACK. Change it to reflect
+the correct number of CPUs/threads, problem input files, etc..
+tee: lin_xeon64.txt: Permission denied
+Sat Feb 13 02:29:02 UTC 2016
+Intel(R) Optimized LINPACK Benchmark data
+
+Current date/time: Sat Feb 13 02:29:02 2016
+
+CPU frequency:    3.012 GHz
+Number of CPUs: 1
+Number of cores: 1
+Number of threads: 1
+
+Parameters are set to:
+
+Number of tests: 15
+Number of equations to solve (problem size) : 1000  2000  5000  10000 15000 18000 20000 22000 25000 26000 27000 30000 35000 40000 45000
+Leading dimension of array                  : 1000  2000  5008  10000 15000 18008 20016 22008 25000 26000 27000 30000 35000 40000 45000
+Number of trials to run                     : 4     2     2     2     2     2     2     2     2     2     1     1     1     1     1    
+Data alignment value (in Kbytes)            : 4     4     4     4     4     4     4     4     4     4     4     1     1     1     1    
+
+Maximum memory requested that can be used=800204096, at the size=10000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+1000   1000   4      0.039      17.1989  9.900691e-13 3.376390e-02   pass
+1000   1000   4      0.037      17.8722  9.900691e-13 3.376390e-02   pass
+1000   1000   4      0.037      18.1574  9.900691e-13 3.376390e-02   pass
+1000   1000   4      0.037      17.9414  9.900691e-13 3.376390e-02   pass
+2000   2000   4      0.286      18.7043  4.053480e-12 3.526031e-02   pass
+2000   2000   4      0.281      19.0186  4.053480e-12 3.526031e-02   pass
+5000   5008   4      4.187      19.9171  2.336047e-11 3.257429e-02   pass
+5000   5008   4      4.227      19.7270  2.336047e-11 3.257429e-02   pass
+10000  10000  4      32.593     20.4602  1.124127e-10 3.963786e-02   pass
+10000  10000  4      33.428     19.9493  1.124127e-10 3.963786e-02   pass
+
+Performance Summary (GFlops)
+
+Size   LDA    Align.  Average  Maximal
+1000   1000   4       17.7925  18.1574 
+2000   2000   4       18.8615  19.0186 
+5000   5008   4       19.8221  19.9171 
+10000  10000  4       20.2048  20.4602 
+
+Residual checks PASSED
+
+End of tests
+
+Done: Sat Feb 13 02:30:24 UTC 2016
+

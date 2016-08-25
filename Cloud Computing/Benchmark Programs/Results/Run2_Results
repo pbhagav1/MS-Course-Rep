@@ -1,0 +1,156 @@
+[ec2-user@ip-172-31-62-210 Assign1]$ make run_all
+./benchmark_cpu_run
+CPU Benchmark for Integer Datatype for 1 threads is 3.078700 GIOPS
+CPU Benchmark for Integer Datatype for 2 threads is 3.179717 GIOPS
+CPU Benchmark for Integer Datatype for 4 threads is 3.405710 GIOPS
+
+CPU Benchmark for Float Datatype for 1 threads is 1.552886 GFLOPS
+CPU Benchmark for Float Datatype for 2 threads is 1.594811 GFLOPS
+CPU Benchmark for Float Datatype for 4 threads is 1.637300 GFLOPS
+./benchmark_dsk_run
+
+Disk benchmark for Sequential Write operation of 1 Byte memory across 1 threads is: 
+	Disk Throughput : 30.116031 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Sequential Read operation of 1 Byte memory across 1 threads is: 
+	Disk Throughput : 26.009300 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Random Write operation of 1 Byte memory across 1 threads is: 
+	Disk Throughput : 1.326082 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Random Read operation of 1 Byte memory across 1 threads is: 
+	Disk Throughput : 5.991671 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Sequential Write operation of 1 Byte memory across 2 threads is: 
+	Disk Throughput : 23.232367 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Sequential Read operation of 1 Byte memory across 2 threads is: 
+	Disk Throughput : 17.757094 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Random Write operation of 1 Byte memory across 2 threads is: 
+	Disk Throughput : 1.234490 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Random Read operation of 1 Byte memory across 2 threads is: 
+	Disk Throughput : 4.230250 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Sequential Write operation of 1 KB memory across 1 threads is: 
+	Disk Throughput : 1459.371108 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Sequential Read operation of 1 KB memory across 1 threads is: 
+	Disk Throughput : 5688.713592 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Random Write operation of 1 KB memory across 1 threads is: 
+	Disk Throughput : 632.079288 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Random Read operation of 1 KB memory across 1 threads is: 
+	Disk Throughput : 1562.500000 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Sequential Write operation of 1 KB memory across 2 threads is: 
+	Disk Throughput : 1472.712928 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Sequential Read operation of 1 KB memory across 2 threads is: 
+	Disk Throughput : 5328.466022 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Random Write operation of 1 KB memory across 2 threads is: 
+	Disk Throughput : 780.443576 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Random Read operation of 1 KB memory across 2 threads is: 
+	Disk Throughput : 1456.845559 MB/sec
+	Disk latency    : 0.000000 ms
+
+Disk benchmark for Sequential Write operation of 1 MB memory across 1 threads is: 
+	Disk Throughput : 70.029462 MB/sec
+	Disk latency    : 0.541667 ms
+
+Disk benchmark for Sequential Read operation of 1 MB memory across 1 threads is: 
+	Disk Throughput : 57.335984 MB/sec
+	Disk latency    : 0.400000 ms
+
+Disk benchmark for Random Write operation of 1 MB memory across 1 threads is: 
+	Disk Throughput : 77.788388 MB/sec
+	Disk latency    : 0.425000 ms
+
+Disk benchmark for Random Read operation of 1 MB memory across 1 threads is: 
+	Disk Throughput : 761.264333 MB/sec
+	Disk latency    : 0.208333 ms
+
+Disk benchmark for Sequential Write operation of 1 MB memory across 2 threads is: 
+	Disk Throughput : 35.137544 MB/sec
+	Disk latency    : 1.000000 ms
+
+Disk benchmark for Sequential Read operation of 1 MB memory across 2 threads is: 
+	Disk Throughput : 31.823913 MB/sec
+	Disk latency    : 0.808333 ms
+
+Disk benchmark for Random Write operation of 1 MB memory across 2 threads is: 
+	Disk Throughput : 47.162524 MB/sec
+	Disk latency    : 0.808333 ms
+
+Disk benchmark for Random Read operation of 1 MB memory across 2 threads is: 
+	Disk Throughput : 1439.821677 MB/sec
+	Disk latency    : 0.416667 ms
+./benchmark_mem_run
+
+Memory benchmark for Sequential Access of 1 Byte memory across 1 threads is: 
+	Memory Throughput : 34.679066 MB/sec
+	Memory latency    : 0.000000 ms
+
+Memory benchmark for Random Access of 1 Byte memory across 1 threads is: 
+	Memory Throughput : 23.841858 MB/sec
+	Memory latency    : 0.000000 ms
+
+Memory benchmark for Sequential Access of 1 Byte memory across 2 threads is: 
+	Memory Throughput : 79.472860 MB/sec
+	Memory latency    : 0.000000 ms
+
+Memory benchmark for Random Access of 1 Byte memory across 2 threads is: 
+	Memory Throughput : 27.247838 MB/sec
+	Memory latency    : 0.000000 ms
+
+Memory benchmark for Sequential Access of 1 KB memory across 1 threads is: 
+	Memory Throughput : 11160.714286 MB/sec
+	Memory latency    : 0.000000 ms
+
+Memory benchmark for Random Access of 1 KB memory across 1 threads is: 
+	Memory Throughput : 9765.625000 MB/sec
+	Memory latency    : 0.000000 ms
+
+Memory benchmark for Sequential Access of 1 KB memory across 2 threads is: 
+	Memory Throughput : 10850.694444 MB/sec
+	Memory latency    : 0.000000 ms
+
+Memory benchmark for Random Access of 1 KB memory across 2 threads is: 
+	Memory Throughput : 10022.615132 MB/sec
+	Memory latency    : 0.000000 ms
+
+Memory benchmark for Sequential Access of 1 MB memory across 1 threads is: 
+	Memory Throughput : 1934.656961 MB/sec
+	Memory latency    : 0.400000 ms
+
+Memory benchmark for Random Access of 1 MB memory across 1 threads is: 
+	Memory Throughput : 2907.145764 MB/sec
+	Memory latency    : 0.350000 ms
+
+Memory benchmark for Sequential Access of 1 MB memory across 2 threads is: 
+	Memory Throughput : 1131.516396 MB/sec
+	Memory latency    : 0.925000 ms
+
+Memory benchmark for Random Access of 1 MB memory across 2 threads is: 
+	Memory Throughput : 1399.664522 MB/sec
+	Memory latency    : 0.700000 ms
+
